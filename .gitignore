@@ -1,0 +1,69 @@
+# Java
+*.class
+*.jar
+*.war
+*.tar
+[Bb]in/
+
+# Maven
+target/
+*pom.xml.releaseBackup
+release.properties
+
+# Git
+*.diff
+*.orig
+*.swp
+*git.conf
+
+# Eclipse
+.project
+.settings
+.classpath
+.metadata
+
+# Intellij
+out
+.idea
+*.iml
+.checkstyle
+
+# Temp
+tmp/
+temp/
+
+# Compiled source
+*.exe
+
+# Log
+*.log
+
+# Data file
+*.txt
+*.csv
+*.out
+!requirements.txt
+
+# Debug
+Debug.java
+
+# Other
+*.deploy
+
+# Python
+*.pyc
+
+# Compressed file
+*.tar
+*.gz
+*.zip
+
+# Encrypted Files
+pysrc/freud_credentials.py
+
+# Others
+dependency-reduced-pom.xml
+
+# *secret* config files
+application-credentials*.yml
+application-test_credentials*.yml
